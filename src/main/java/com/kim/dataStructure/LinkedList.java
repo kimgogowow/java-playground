@@ -3,8 +3,8 @@ package com.kim.dataStructure;
 import java.util.NoSuchElementException;
 
 public class LinkedList {
-    private class Node {
-        private int value;
+    public class  Node {
+        public int value;
         private Node next;
 
         public Node(int value) {
@@ -14,7 +14,11 @@ public class LinkedList {
 
     private Node first;
     private Node last;
-    private int size;
+    public int test;
+    public static int size;//all instances share this same value if statics,only one size in the memory
+
+
+
     public void addLast(int item) {
         var node = new Node(item);
 
