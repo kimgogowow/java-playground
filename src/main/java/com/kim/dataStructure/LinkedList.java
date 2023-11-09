@@ -2,7 +2,7 @@ package com.kim.dataStructure;
 
 import java.util.NoSuchElementException;
 
-public class LinkedList {
+public class LinkedList<E> {
     public class  Node {
         public int value;
         private Node next;

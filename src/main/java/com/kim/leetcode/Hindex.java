@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class Hindex {
     public int hIndex(int[] citations) {
+
+
         int left = 0;
         int right = citations.length;
 
@@ -21,4 +23,13 @@ public class Hindex {
             }
         }
         return left;
-}}
+    }
+
+    @Override
+    public String toString(){
+        return "sads";
+    }
+
+
+
+}
