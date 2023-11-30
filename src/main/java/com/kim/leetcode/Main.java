@@ -53,5 +53,12 @@ public class Main {
         int[] cost ={3,4,5,1,2};
         int res = solution2.canCompleteCircuit(gas,cost);
         System.out.println(res);
+
+        String resString =solution2.intToRoman(2044);
+
+        System.out.println("res is  "+resString);
+
+        solution2.convert("wesqeqwe",3);
+
     }
 }
